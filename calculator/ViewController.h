@@ -12,9 +12,9 @@
     IBOutlet UILabel *label;
     IBOutlet UILabel *label2;
     IBOutlet UILabel *label3;
-    int number;
-    int number2;
-    int number3;
+    float number;
+    float number2;
+    float number3;
     int ope;
 }
 -(IBAction)bt1;
@@ -33,6 +33,7 @@
 -(IBAction)waru;
 -(IBAction)equal;
 -(IBAction)clear;
+-(IBAction)pai;
 
 
 @end
