@@ -8,7 +8,31 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UILabel *label;
+    IBOutlet UILabel *label2;
+    IBOutlet UILabel *label3;
+    int number;
+    int number2;
+    int number3;
+    int ope;
+}
+-(IBAction)bt1;
+-(IBAction)bt2;
+-(IBAction)bt3;
+-(IBAction)bt4;
+-(IBAction)bt5;
+-(IBAction)bt6;
+-(IBAction)bt7;
+-(IBAction)bt8;
+-(IBAction)bt9;
+-(IBAction)bt0;
+-(IBAction)plus;
+-(IBAction)mainasu;
+-(IBAction)kakeru;
+-(IBAction)waru;
+-(IBAction)equal;
+-(IBAction)clear;
 
 
 @end
